@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ananya Sahoo - Creative Frontend Developer Portfolio">
+    <meta name="keywords" content="frontend developer, web developer, UI/UX, React, JavaScript, web design">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1157/1157109.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Ananya Sahoo | Creative Frontend Developer</title>
+</head>
+<body>
+    <!-- Modern Navigation -->
+    <nav>
+        <div class="username">
+            <span class="logo-dot"></span>
+            Ananya.dev
+        </div>
+        <div class="navlist">
+            <ul>
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-buttons">
+            <button class="theme-toggle" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="cv-button" onclick="window.open('Ananya Rani Sahoo[1].pdf', '_blank')">
+                <i class="fas fa-download"></i> Resume
+            </button>
+            <button class="mobile-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Particles -->
+    <section class="hero" id="home">
+        <div class="particles"></div>
+        <div class="left_hero">
+            <div class="badge">
+                <span>Available for Projects</span>
+                <div class="badge-dot"></div>
+            </div>
+            <h1>Crafting Digital<br>Experiences</h1>
+            <p>
+                Passionate frontend developer specializing in creating beautiful, 
+                responsive, and user-friendly web applications. Turning ideas into 
+                reality through clean code and modern design.
+            </p>
+            <div class="cta-buttons">
+                <button class="btn1" onclick="location.href='#contact'">
+                    <i class="fas fa-paper-plane"></i> Let's Talk
+                    <span class="btn-shine"></span>
+                </button>
+                <button class="btn2" onclick="window.open('Ananya Rani Sahoo[1].pdf', '_blank')">
+                    <i class="fas fa-download"></i> Resume
+                </button>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/ananyasahoo" target="_blank" class="social-icon" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/ananyasahoo" target="_blank" class="social-icon" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com/ananyasahoo" target="_blank" class="social-icon" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/ananyasahoo" target="_blank" class="social-icon" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="right_hero">
+            <div class="hero_img">
+                <img src="https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg" alt="Ananya Sahoo">
+                <div class="img-overlay"></div>
+            </div>
+            <div class="experience-badge">
+                <span class="years">7+</span>
+                <span class="text">Years of<br>Experience</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Cards -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <span class="section-subtitle">About Me</span>
+            <h2 class="section-title">My Journey</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-content">
+                <p class="about-text">
+                    With 7+ years of experience in frontend development, I've mastered 
+                    the art of creating exceptional web experiences. My expertise spans 
+                    modern frameworks and libraries, enabling me to build scalable 
+                    solutions that combine aesthetics with functionality.
+                </p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">25+</span>
+                        <span class="stat-label">Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card frontend-card">
+                    <div class="card-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills">
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Next.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Tailwind</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">SASS</span>
+                    </div>
+                </div>
+                <div class="skill-card backend-card">
+                    <div class="card-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">GraphQL</span>
+                        <span class="skill-tag">REST</span>
+                    </div>
+                </div>
+                <div class="skill-card tools-card">
+                    <div class="card-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools</h3>
+                    </div>
+                    <div class="skills">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-header">
+            <span class="section-subtitle">Featured Work</span>
+            <h2 class="section-title">Recent Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/600x400" alt="E-commerce Platform">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>E-commerce Platform</h3>
+                    <p>A full-featured online shopping platform with real-time inventory and secure payments.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/600x400" alt="Task Management App">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>A collaborative task management solution with real-time updates and team features.</p>
+                    <div class="project-tags">
+                        <span>Vue.js</span>
+                        <span>Firebase</span>
+                        <span>Tailwind</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <span class="section-subtitle">Get in Touch</span>
+            <h2 class="section-title">Let's Create Together</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <a href="mailto:contact@ananyasahoo.com">contact@ananyasahoo.com</a>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <a href="tel:+917589849848">+91 758 984 9848</a>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Bangalore, India</p>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-input" placeholder="Your Name" required>
+                    <span class="input-focus"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-input" placeholder="Your Email" required>
+                    <span class="input-focus"></span>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-input" placeholder="Your Message" required></textarea>
+                    <span class="input-focus"></span>
+                </div>
+                <button type="submit" class="submit-btn">
+                    Send Message
+                    <i class="fas fa-paper-plane"></i>
+                    <div class="btn-loader"></div>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Ananya.dev</h3>
+                <p>Creating digital experiences that matter.</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Social</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/ananyasahoo" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/ananyasahoo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/ananyasahoo" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/ananyasahoo" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ananya Sahoo. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-social">
+            <a href="https://github.com/ananyasahoo" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/ananyasahoo" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://twitter.com/ananyasahoo" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/ananyasahoo" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const mobileNav = document.querySelector('.mobile-nav');
+        const body = document.body;
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            mobileNav.classList.toggle('active');
+            body.classList.toggle('menu-open');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.mobile-nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+                mobileNav.classList.remove('active');
+                body.classList.remove('menu-open');
+            });
+        });
+
+        // Theme Toggle
+        const themeToggle = document.querySelector('.theme-toggle');
+        const htmlElement = document.documentElement;
+        
+        // Check for saved theme preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            htmlElement.classList.add(savedTheme);
+            themeToggle.querySelector('i').className = savedTheme === 'dark-theme' 
+                ? 'fas fa-sun' 
+                : 'fas fa-moon';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            htmlElement.classList.toggle('dark-theme');
+            const isDark = htmlElement.classList.contains('dark-theme');
+            
+            // Update icon
+            themeToggle.querySelector('i').className = isDark 
+                ? 'fas fa-sun' 
+                : 'fas fa-moon';
+            
+            // Save preference
+            localStorage.setItem('theme', isDark ? 'dark-theme' : '');
+        });
+
+        // Active Navigation Link
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        function updateActiveLink() {
+            const scrollPosition = window.scrollY;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+                
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === `#${sectionId}`) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }
+
+        window.addEventListener('scroll', updateActiveLink);
+        updateActiveLink();
+
+        // Form Submission Animation
+        const contactForm = document.getElementById('contact-form');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const submitBtn = contactForm.querySelector('.submit-btn');
+            submitBtn.classList.add('loading');
+            
+            // Simulate form submission (replace with actual form submission)
+            setTimeout(() => {
+                submitBtn.classList.remove('loading');
+                contactForm.reset();
+                alert('Message sent successfully!');
+            }, 2000);
+        });
+    </script>
+</body>
+</html> 
